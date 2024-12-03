@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FrmMenu</class>
+ <widget class="QMainWindow" name="FrmMenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1245</width>
+    <height>715</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sistema de Encriptación de Datos</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>key.png</normaloff>key.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1245</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuEncriptar">
+    <property name="title">
+     <string>Encriptar</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuDesencriptar">
+    <property name="title">
+     <string>Desencriptar</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuOpciones">
+    <property name="title">
+     <string>Opciones</string>
+    </property>
+   </widget>
+   <addaction name="menuEncriptar"/>
+   <addaction name="menuDesencriptar"/>
+   <addaction name="menuOpciones"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAyuda">
+   <property name="text">
+    <string>Ayuda</string>
+   </property>
+  </action>
+  <action name="actionSalir">
+   <property name="text">
+    <string>Salir</string>
+   </property>
+  </action>
+  <action name="actionDesencriptar_Archivo">
+   <property name="text">
+    <string>Desencriptar Archivo</string>
+   </property>
+  </action>
+  <action name="actionEncriptar_Archivo">
+   <property name="text">
+    <string>Encriptar Archivo</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
